@@ -20,6 +20,12 @@ p {
     color: #623CEA;
 } */
 
+h1 {
+    text-transform: uppercase;
+    font-family: "Helvetica", sans-serif;
+    border-color: aqua;
+}
+
 ul {}
 
 li {
