@@ -1,4 +1,4 @@
-body {
+/* body {
     background: url(images/glitchBG.jpg);
 }
 
@@ -18,4 +18,10 @@ h2 {
 
 p {
     color: #623CEA;
+} */
+
+ul {}
+
+li {
+    list-style: none;
 }
