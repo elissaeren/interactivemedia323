@@ -23,7 +23,7 @@ p {
 h1 {
     text-transform: uppercase;
     font-family: "Helvetica", sans-serif;
-    border-color: aqua;
+    background-color: aqua;
 }
 
 ul {}
