@@ -1,4 +1,9 @@
-h1 {}
+body {
+    background: url(images/glitchBG.jpg);
+}
+
+h1 {
+}
 
 ul {
 }
