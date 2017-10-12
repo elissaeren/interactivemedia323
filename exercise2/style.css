@@ -1,15 +1,16 @@
-/* body {
+body {
     background: url(images/glitchBG.jpg);
 }
 
 h1 {
+    text-transform: uppercase;
+    font-family: "Helvetica", sans-serif;
 }
 
-ul {
-}
+ul {}
 
 li {
-    
+    list-style: none;
 }
 
 h2 {
@@ -18,16 +19,4 @@ h2 {
 
 p {
     color: #623CEA;
-} */
-
-h1 {
-    text-transform: uppercase;
-    font-family: "Helvetica", sans-serif;
-    background-color: aqua;
-}
-
-ul {}
-
-li {
-    list-style: none;
 }
