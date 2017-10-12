@@ -20,8 +20,9 @@ h2 {
 }
 
 p {
-    color: #623CEA;
+    color: #00F2FF;
     text-indent: 30px;
+    padding: 3px 3px 3px 0px;
 }
 
 .title.outset {
@@ -37,6 +38,7 @@ p {
     font-family: "Helvetica", sans-serif;
     text-decoration: none;
     font-weight: 100;
+    padding: 5px 12px 15px 15px;
 }
 
 .steps {
