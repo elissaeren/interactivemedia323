@@ -7,22 +7,21 @@ h1 {
     font-family: "Helvetica", sans-serif;
 }
 
-ul {}
-
-li {
-    list-style: none;
-}
-
 h2 {
-    color: #000;
+    color: #00F2FF;
     font-family: "Helvetica", sans-serif;
     font-style: oblique;
+    font-weight: 600;
+    font-size: 40px;
 }
 
 p {
-    color: #00F2FF;
+    color: #BB35E8;
     text-indent: 30px;
     padding: 3px 3px 3px 0px;
+    font-family: "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .title.outset {
@@ -39,14 +38,68 @@ p {
     text-decoration: none;
     font-weight: 100;
     padding: 5px 12px 15px 15px;
+    font-size: 16px;
 }
 
-.steps {
+.step1 {
     background-color: #FFF;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 20px 25px 20px 25px; /*top right bottom left*/
 }
 
-.steps p{
-    color: #;
-    font-family: "Helvetica", sans-serif;
-    font-weight: 400;
+.step2 {
+    background-color: #FFF;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 20px 25px 20px 25px; /*top right bottom left*/
+}
+
+.step3 {
+    background-color: #FFF;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 20px 25px 20px 25px; /*top right bottom left*/
+}
+
+.step4 {
+    background-color: #FFF;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 20px 25px 20px 25px; /*top right bottom left*/
+}
+
+.step5 {
+    background-color: #FFF;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 20px 25px 20px 25px; /*top right bottom left*/
+}
+
+.step6 {
+    background-color: #FFF;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 20px 25px 20px 25px; /*top right bottom left*/
+}
+
+.step7 {
+    background-color: #FFF;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 20px 25px 20px 25px; /*top right bottom left*/
+}
+
+.step8 {
+    background-color: #FFF;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 20px 25px 20px 25px; /*top right bottom left*/
+}
+
+.step9 {
+    background-color: #FFF;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 20px 25px 20px 25px; /*top right bottom left*/
 }
