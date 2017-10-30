@@ -1,108 +1,81 @@
 body {
-    background: url(images/glitchBG.jpg);
+    padding: none;
 }
 
-h1 {
-    text-transform: uppercase;
-    font-family: "Helvetica", sans-serif;
-    text-align: left;
-    line-height: inherit;
-    letter-spacing: normal;
+.nav {
+    position: fixed;
+    height: 75px;
 }
 
-h2 {
-    color: #00F2FF;
-    font-family: "Helvetica", sans-serif;
-    font-style: oblique;
-    font-weight: 600;
-    font-size: 40px;
+.nav, p {
+    text-align: center;
+    color: #a5a7aa;
+    display: inline-block;
 }
 
-p {
-    color: #BB35E8;
-    text-indent: 30px;
-    padding: 3px 3px 3px 0px;
-    font-family: "Helvetica", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+.search {
+    border: 0.5px solid #b8babc;
+    width: 150px;
+    height: 25px;
+    background: #fff;
 }
 
-.title.outset {
-    border-style: outset;
+.main {
+    position: relative;
+    top: 75px;
+    height: 800px;
+    background: #fafafa;
 }
 
-.title {
-    background-color: #FFF;
+.content {
+    
 }
 
-.title p{
-    color: #000;
-    font-family: "Helvetica", sans-serif;
-    text-decoration: none;
-    font-weight: 100;
-    padding: 5px 12px 15px 15px;
-    font-size: 16px;
+
+
+#circle {
+	width: 152px;
+	height: 152px;
+	background: #fff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    
+    border:0.25px solid #c9c8cd;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
 }
 
-.step1 {
-    background-color: #FFF;
-    column-count: 2;
-    column-gap: 50px;
-    padding: 20px 25px 20px 25px; /*top right bottom left*/
+#square {
+	width: 293px;
+	height: 293px;
+	background: #fff;
 }
 
-.step2 {
-    background-color: #FFF;
-    column-count: 2;
-    column-gap: 50px;
-    padding: 20px 25px 20px 25px; /*top right bottom left*/
+#magnifying-glass
+{
+ font-size: 15px; /* This controls the size. */
+ display: inline-block;
+ width: 0.4em;
+ height: 0.4em;
+ border: 0.1em solid #a5a7aa;
+ position: relative;
+ border-radius: 0.35em;
 }
-
-.step3 {
-    background-color: #FFF;
-    column-count: 2;
-    column-gap: 50px;
-    padding: 20px 25px 20px 25px; /*top right bottom left*/
-}
-
-.step4 {
-    background-color: #FFF;
-    column-count: 2;
-    column-gap: 50px;
-    padding: 20px 25px 20px 25px; /*top right bottom left*/
-}
-
-.step5 {
-    background-color: #FFF;
-    column-count: 2;
-    column-gap: 50px;
-    padding: 20px 25px 20px 25px; /*top right bottom left*/
-}
-
-.step6 {
-    background-color: #FFF;
-    column-count: 2;
-    column-gap: 50px;
-    padding: 20px 25px 20px 25px; /*top right bottom left*/
-}
-
-.step7 {
-    background-color: #FFF;
-    column-count: 2;
-    column-gap: 50px;
-    padding: 20px 25px 20px 25px; /*top right bottom left*/
-}
-
-.step8 {
-    background-color: #FFF;
-    column-count: 2;
-    column-gap: 50px;
-    padding: 20px 25px 20px 25px; /*top right bottom left*/
-}
-
-.step9 {
-    background-color: #FFF;
-    column-count: 2;
-    column-gap: 50px;
-    padding: 20px 25px 20px 25px; /*top right bottom left*/
+#magnifying-glass::before
+{
+ content: "";
+ display: inline-block;
+ position: absolute;
+ right: -0.25em;
+ bottom: -0.1em;
+ border-width: 0;
+ background: #a5a7aa;
+ width: 0.4em;
+ height: 0.08em;
+ -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
 }
