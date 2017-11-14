@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Level Five : V5</title>
+        <style>
+            .typewriter h1 {
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                border-right: .15em; /* The typwriter cursor */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                letter-spacing: .2em; /* Adjust as needed */
+                animation: 
+                    typing 3.5s steps(40, end),
+                    blink-caret .75s step-end infinite;
+            }
+            
+            .typewriter h2 {
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                border-right: .3em; /* The typwriter cursor */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                letter-spacing: .2em; /* Adjust as needed */
+                animation: 
+                    typing 3.5s steps(40, end),
+                    blink-caret .75s step-end infinite;
+            }
+
+            /* The typing effect */
+            @keyframes typing {
+                from { width: 10% }
+                to { width: 100% }
+            }
+
+            /* The typewriter cursor effect */
+            @keyframes blink-caret {
+                from, to { border-color: transparent }
+                50% { border-color: #000; }
+            }
+            
+            .typewriter {
+                font-family: "Courier", sans-serif;
+                font-weight: 100;
+            }
+            
+            h1 {
+                font-size: 80px;
+            }
+            
+            h2 {
+                font-size: 78px;
+            }
+            
+            body {
+                background-color: #F0E4D4;
+            }
+            
+            h3 {
+                font-size: 100px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="typewriter">
+            <h1>You once told me I was</h1>
+            
+            <h2>the kind of woman they</h2>
+            
+            <h1>made myths about and you </h1>
+            
+            <h2>were right in every good religion <br></h2>
+            
+            <h3>There is a god of war</h3>
+            
+            <h2></h2>
+        </div>
+    </body>
+</html>
