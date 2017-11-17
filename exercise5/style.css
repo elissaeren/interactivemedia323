@@ -1,0 +1,69 @@
+/* Base */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url('ComebackKid5.jpg');
+}
+
+h1 {
+	font-size: 110px;
+    font-family: "Helvetica";
+    color: #fff;
+}
+
+div {
+    width: 80%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+
+  body { background: url('ComebackKid5.jpg'); }
+  h1 { font-size: 70px; 
+    color: #fff;}
+  div { line-height: 90px;}
+
+}
+
+@media screen and (max-width: 768px) {
+
+  body { background: url('ComebackKid4.jpg'); }
+  h1 { font-size: 50px; }
+  div { line-height: 45px; }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  body { background: url('ComebackKid3.jpg'); }
+  h1 { font-size: 30px; 
+    color: #fff;}
+  div { line-height: 39px; 
+      width: 45%;
+    padding-left: 25px;}
+
+}
+
+@media screen and (max-width: 480px) {
+  
+  body { background: url('ComebackKid2.jpg'); }
+  h1 { font-size: 20px; 
+    font-weight: 200;}
+  div { line-height: 22px; 
+    width: 78%; 
+    padding-left: 13px;}
+
+}
+
+@media screen and (max-width: 320px) {
+
+  body { background: url('ComebackKid1.jpg');}
+  h1 { font-size: 15px;}
+  div { line-height: 18px;
+    width: 45%;}
+
+}
