@@ -50,19 +50,20 @@ div {
 
 @media screen and (max-width: 480px) {
   
-  body { background: url('ComebackKid2.jpg'); }
-  h1 { font-size: 20px; 
-    font-weight: 200;}
+  body { background: url('ComebackKid2.jpg');
+    padding-top: 39px;}
+    h1 { font-size: 20px;
+    text-transform: uppercase;}
   div { line-height: 22px; 
     width: 78%; 
-    padding-left: 13px;}
+    padding-left: 40px;}
 
 }
 
 @media screen and (max-width: 320px) {
 
   body { background: url('ComebackKid1.jpg');}
-  h1 { font-size: 15px;}
+  h1 { font-size: 20px;}
   div { line-height: 18px;
     width: 45%;}
 
